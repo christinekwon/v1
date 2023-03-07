@@ -1,0 +1,45 @@
+/* mobile specific styles */
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+        letter-spacing: 1em;
+        line-height: 1.5em;
+        backface-visibility: hidden;
+    }
+    .circle {
+        /* text-align: center; */
+        margin: 20px;
+        margin-bottom: 0;
+        padding: 2em;
+        padding-bottom: 4em;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        list-style: none;
+        transform-style: preserve-3d;
+        animation: three-dimensions-circle-x 600s linear infinite;
+        transform: rotateY(90deg);
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+    }
+    .circle li {
+        margin: 0 0.75em;
+        display: inline-block;
+        position: absolute;
+        width: 1.5em;
+        height: 8em;
+        pointer-events: visible;
+        color: white;
+        backface-visibility: hidden;
+        /* background-color: blue; */
+    }
+    #sekki {
+        margin-left: -150px;
+    }
+    #ko {
+        margin-left: 160px;
+    }
+}

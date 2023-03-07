@@ -1,0 +1,600 @@
+{
+    "garlic": {
+        "title": "garlic",
+        "tooltip": "a clock",
+        "link": "https://christinekwon.github.io/garlic/",
+        "description": [{
+                "type": "text",
+                "content": "A new language of time displays the current time by the degrees of rotation of garlic cloves."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/garlic\">watch interface animation tool</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/garlic-party\">random animation player</a>"
+            },
+            {
+                "type": "text",
+                "content": "I created the cloves in Maya and manipulated them using Three.js."
+            },
+            {
+                "type": "text",
+                "content": "This project began as a simple idea of allowing the garlic to decay over time and associating the state of decay with the current time of day .."
+            },
+            {
+                "type": "text",
+                "content": "But playing around with the 3 dimensional shapes and code led to unexpected visuals that i fell in love with."
+            },
+            {
+                "type": "text",
+                "content": "video presentation :"
+            },
+            {
+                "type": "youtube",
+                "content": "https://www.youtube.com/embed/Qy0erl9ka2M"
+            },
+            {
+                "type": "text",
+                "content": "this <a href=\"https://www.are.na/nowk-enitsirhc/emit-vhtgnzr8qm0\">are.na</a> channel sort of documents what was going through my mind as i worked on this project"
+            },
+            {
+                "type": "text",
+                "content": "My friend created a garlic tent to match and we threw a garlic-themed party to celebrate ~"
+            },
+            {
+                "type": "text",
+                "content": "This is the video we projected:"
+            },
+            {
+                "type": "youtube",
+                "content": "https://www.youtube.com/embed/VgC63W0KrqM"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/tent.jpg"
+            },
+            {
+                "type": "text",
+                "content": "I made some posters for promo / deco:"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/store.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/garlic.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/christine.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/olivia.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/garlic/print.jpg"
+            }
+        ],
+        "footer": "Created in Advanced Graphic Design w David Reinfurt at Princeton University."
+    },
+    "garden": {
+        "title": "fibonacci's garden",
+        "tooltip": "a garden of spirals",
+        "link": "https://christinekwon.github.io/spiral-world/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/spiral-world\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "The fibonacci garden is a generative garden of spirals created using the fibonacci sequence."
+            },
+            {
+                "type": "video",
+                "content": "../videos/fibonacci/0.mp4"
+            },
+            {
+                "type": "video",
+                "content": "../videos/fibonacci/1.mp4"
+            },
+            {
+                "type": "text",
+                "content": "At the heart of this project is an exploration of 3D representation methods of fractals. I became captivated by fractal patterns because of their ability to create extremely complex looking results with a very simple rule. I wanted to experiment first with the Fibonacci sequence because I am particularly interested in the beautiful visual effects it creates in nature, as can be seen through flower petal / seed arrangement, shells, and more."
+            },
+            {
+
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/0.png"
+            },
+            {
+                "type": "text",
+                "content": "Each time the website is loaded, 20 unique spirals are generated."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/1.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/2.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/3.png"
+            },
+            {
+                "type": "text",
+                "content": "Each spiral is created by first creating a stacked cube structure based on the fibonacci sequence.."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cube-persp.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cube-z.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cube-y.png"
+            },
+            {
+                "type": "text",
+                "content": ".. and then using the corners of the cubes to draw bézier curves."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cubespiral-persp.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cubespiral-z.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/cubespiral-y.png"
+            },
+            {
+                "type": "text",
+                "content": "You can pan around the site to observe the garden from various angles."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/top.png"
+            },
+            {
+                "type": "video",
+                "content": "../videos/fibonacci/2.mp4"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fibonacci-garden/bottom.png"
+            },
+            {
+                "type": "video",
+                "content": "../videos/fibonacci/3.mp4"
+            },
+            {
+                "type": "text",
+                "content": "This <a href=\"https://www.are.na/nowk-enitsirhc/latcarf\">are.na channel</a> is what I used to gather inspiration and materials, as well as document my process a bit."
+            }
+        ],
+        "footer": "Created as my independent work project for the 21-22 spring semester, advised by Professor Jeff Snyder at Princeton University."
+    },
+    "spiral": {
+        "title": "spiral",
+        "tooltip": "a spiral",
+        "link": "https://christinekwon.github.io/romanesco/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/romanesco\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A spirally object I created while experimenting with the Fibonacci sequence."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/spiral/0.png"
+            }
+        ],
+        "footer": "Created for funzies."
+    },
+    "variations": {
+        "title": "25 variations",
+        "tooltip": "a collection of variations on a poem",
+        "link": "../../variations/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"../../variations/\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "25 visual representations of the poem 'working together' by David Whyte."
+            },
+            {
+                "type": "text",
+                "content": "There are 5 levels, each level consisting of 5 variations."
+            },
+            {
+                "type": "text",
+                "content": "Each level has a different set of restrictions, and there are fewer and fewer restrictions as we advance."
+            },
+            {
+                "type": "text",
+                "content": "The types of html / css elements i was allowed to use in each level show when you hover over the respective column."
+            },
+
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/cover.png"
+            },
+            {
+                "type": "text",
+                "content": "This project, which was an assignment for a class, was particularly interesting to me because it got me thinking a lot about the concept of \"pushing from exhaustion.\""
+            },
+            {
+                "type": "text",
+                "content": "Especially in the beginning when all I had to work with were a few basic html elements, I felt quite frustrated and lost, because I was very accustomed to abundance and didn’t really believe that I would be able to produce any interesting visuals with such simplicity. I didn’t want anything I create to be boring!! With this in mind, I spent a while thinking about what I could possibly do to make this assignment work for me. "
+            },
+            {
+                "type": "text",
+                "content": "I ended up being quite surprised at what I was able to create and learn from this process, as I found myself experimenting with effects that, despite using only simple elements, lended to interesting results. One of my favorites is these two variations, which work as a pair. In this first one, in which I was only able to utilize html elements and was prohibited from using css, I bolded every other letter in the poem by manually placing the bolded letters in a <strong> tag. Despite how simple and mindless the work was, it took quite a bit of time to go through the entire poem and wrap half of the letters in a tag. It was almost a meditative exercise."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/strong.png"
+            },
+            {
+                "type": "text",
+                "content": "Then, in a later step in the assignment where I was finally allowed to use more elements and even css, I used this as an opportunity to build on the html file I had previously created. Using css, I essentially reversed the effect I had taken over an hour to create by reverting all letters to the same weight using only three lines of code. "
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/swan.png"
+            },
+            {
+                "type": "text",
+                "content": "This process, although quite simple in the technical sense, was meaningful to me because it got me thinking about things in general that take a lot of work and difficulty to build, but can be reversed or disappear in a snap. Some things on my mind are cooking food, manmade infrastructure in the face of natural disaster, trust …"
+            },
+            {
+                "type": "text",
+                "content": "I also named this one “swan” because it reminded me of how swans look very elegant and peaceful as they float across water, but their feet paddle extremely aggressively under the water where others can’t see. I felt that is similar to the html because the rendered html page displays a basic poem without visible styling, but the source code displays otherwise …"
+            },
+            {
+                "type": "text",
+                "content": "Some of the websites in this project appear pretty simple and uninteresting on the surface, but hold more conceptual meaning that was fun for me to think about while creating them. For some of them, looking at the source code might reveal some of the thought processes that went behind them."
+            },
+            {
+                "type": "text",
+                "content": "This is another one of my favorites that I created in the first stage of the project — I attempted to mimic fill-justification done in manual typesetting by manually inserting non-breaking spaces where I would insert space blocks if I were to manually typeset the poem by hand using a letterpress."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/typeset.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/book.jpeg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/overlap.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/25variations/squish.png"
+            }
+        ],
+        "footer": "Created in Graphic Design: Link at Princeton University with Laurel Schwulst."
+    },
+    "microseasons": {
+        "title": "72 microseasons",
+        "tooltip": "a calendar of 72 microseasons",
+        "link": "../../microseasons/",
+        "description": [{
+                "type": "text",
+                "content": "A representation of the 72 Japanese microseasons."
+            },
+            {
+                "type": "text",
+                "content": "24 sekki and 72 kō"
+            },
+            {
+                "type": "text",
+                "content": "This is how it looks on PC:"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/microseasons/0.png"
+            },
+            {
+                "type": "text",
+                "content": "The mobile version is adjusted to fit the vertical orientation like so:"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/microseasons/1.png"
+            }
+        ],
+        "footer": "Created in Graphic Design: Link w Laurel Schwulst at Princeton University."
+    },
+    "fabric": {
+        "title": "fabric simulation",
+        "tooltip": "a fabric simulator",
+        "link": "../cloth-sim",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"../cloth-sim\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A cloth simulator that numerically integrates Newton's equations of motion to model fabric using the Three.js graphics library."
+            },
+            {
+                "type": "video",
+                "content": "../videos/cloth/0.mp4"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fabric/0.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/fabric/1.png"
+            }
+        ],
+        "footer": "Created in my COS426: Computer Graphics at Princeton University."
+    },
+    "octopus": {
+        "title": "dress my octopus",
+        "tooltip": "a dress up game",
+        "link": "https://christinekwon.github.io/dress-my-octopus/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/dress-my-octopus\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A dress up game created using the Three.js library, using models I sculpted in Maya."
+            },
+            {
+                "type": "video",
+                "content": "../videos/octopus/0.mp4"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/octopus/0.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/octopus/0.png"
+            }
+        ],
+        "footer": "Created for funzies."
+    },
+    "baby_piano": {
+        "title": "baby piano",
+        "tooltip": "a piano",
+        "link": "https://christinekwon.github.io/baby-piano/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/baby-piano\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "Music makes babies dance !"
+            },
+            {
+                "type": "text",
+                "content": "I created a piano you can play with your computer keyboard."
+            },
+            {
+                "type": "video",
+                "content": "../videos/piano/0.mp4"
+            },
+            {
+                "type": "text",
+                "content": "With every press of a button, you can play a note and make a baby jump up into the sky and twirl."
+            },
+            {
+                "type": "video",
+                "content": "../videos/piano/1.mp4"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/baby-piano/0.png"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/baby-piano/1.png"
+            }
+        ],
+        "footer": "Created for funzies."
+    },
+    "mac-n-cheese": {
+        "title": "mac n cheese",
+        "tooltip": "a mac n cheese timer",
+        "link": "https://christinekwon.github.io/mac-n-cheese/",
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/mac-n-cheese\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "In my Advanced Graphic Design class we had to create a 14 minute presentation on time.."
+            },
+            {
+                "type": "text",
+                "content": "So i made an website that animates the process of cooking a box of Annie's mac n' cheese."
+            },
+            {
+                "type": "text",
+                "content": "and had this playing through the projector while i cooked mac n cheese live in front of the class."
+            },
+            {
+                "type": "text",
+                "content": "This animation is perfectly timed (e.g. bubbles jiggle at the surface of the water at the 5 minute mark because it takes 500ml of room temperatue water to come to a boil), so you can actually use it as a tool when cooking Annie's mac n' cheese to see when to put in certain ingredients."
+            }
+        ],
+        "footer": "Created for funzies but also for class. :~]"
+    },
+    "tinder": {
+        "title": "tinder",
+        "tooltip": "marketing video production for tinder korea",
+        "link": "https://www.youtube.com/watch?v=Bq1pT2-5Y9g&ab_channel=TinderKorea",
+        "description": [{
+                "type": "text",
+                "content": "I worked for the Tinder Korea marketing team in spring of 2021, where i led a team in creating a video promoting the app."
+            },
+            {
+                "type": "text",
+                "content": "We crafted a video in partnership with <a href=\"https://www.instagram.com/hyojin__choi__/?hl=en\">Hyojin Choi</a>, a professional dancer in Kaorea known for her <a href=\"https://www.youtube.com/watch?v=ZMq-aazS_kg&ab_channel=1MILLIONDanceStudio\">powerful choreography</a> as an iconic dancer / choreographer at 1 Million Dance Studio, the largest dance studio in Korea, and gained even more traction in the past year by <a href=\"https://www.youtube.com/watch?v=YyPi7uBIWa8&ab_channel=MnetTV\">leading the dance group WANT in \"Street Woman Fighter,\"</a> a dance competition show that aired on the Korean entertainment channel M-net."
+            },
+            {
+                "type": "text",
+                "content": "The goal of the project was to create material that demonstrates how one can create a Tinder profile that effectively demonstrates one's lovely qualities, such as talents, interests, and personality. My team chose to work with Hyojin for this project because we were captivated by her creative dance artistry, and thought her character would be interesting to translate into a Tinder profile."
+            },
+            {
+                "type": "text",
+                "content": "We first had a shoot with Hyojin as we captured her dancing freestyle in Sewoon Sangga, a digital shopping complex in the heart of Seoul with a retro vibe, through photo and video. We wished to capture her doing what she loves the most: dancing."
+            },
+            {
+                "type": "text",
+                "content": "We then had her utilize these images, along with some of her own, to craft a Tinder profile that best showcases her personality and interests. We documented the process as she uploaded images of her doing the things she loves, selected her interests, and filled out a bio about herself."
+            },
+            {
+                "type": "text",
+                "content": "You can watch the final video <a href=\"https://www.youtube.com/watch?v=Bq1pT2-5Y9g&ab_channel=TinderKorea\">here</a>."
+            },
+            {
+                "type": "text",
+                "content": "My responsibilities during this project included: \ncasting the dancer \nscouting the indoor & outdoor locations and scheduling the time for filming & production \noverseeing video editing and production \ncolor correcting and retouching photoshoot images \ncreating marketing graphics for instagram and youtube using Adobe Illustrator and Photoshop"
+            },
+            {
+                "type": "text",
+                "content": "The following are the marketing images I created using images from the photoshoot that were used to announce the partnership on Instagram."
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/ig0.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/ig2.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/ig1.jpg"
+            },
+            {
+                "type": "text",
+                "content": "Some images from the photo / video shoot:"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/film0.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/film1.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/film2.jpg"
+            },
+            {
+                "type": "text",
+                "content": "Editing the images:"
+            },
+
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/edit0.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/edit1.jpg"
+            },
+            {
+                "type": "img",
+                "content": "../images/projects/tinder/edit2.jpg"
+            }
+        ],
+        "footer": "Completed during my marketing internship at Tinder Korea."
+    },
+    "presents": {
+        "title": "presents",
+        "tooltip": "gifts for my loves",
+        "link": "",
+        "description": [{
+                "type": "text",
+                "content": "Sometimes I enjoy giving gifts in the form of websites .."
+            },
+            {
+                "type": "text",
+                "content": "I created the butterfly as a college graduation gift for my dearest friends. The shape of the butterfly re-generates every time one opens the page."
+            },
+            {
+                "type": "video",
+                "content": "../videos/butterfly/0.mp4"
+            },
+            {
+                "type": "text",
+                "content": "I named it \"fly\" to symbolize us flying away from our nests in Princeton to pursue the things we love."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/butterfly\">butterfly</a>"
+            },
+            {
+                "type": "text",
+                "content": "I gave each of my friends a uniquely colored butterfly. For example, this one's for raya:"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/butterfly/?name=raya\">a pink butterfly for raya</a>"
+            },
+            {
+
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/butterfly/?name=kyle\">an indigo butterfly for kyle</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/butterfly/?name=olivia\">a lavender butterfly for olivia</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/butterfly/?name=emily\">an orange butterfly for emily</a>"
+            },
+            {
+                "type": "text",
+                "content": "I created this for Megan on her birthday. It displays a series of eggs wrapped in images from her Instagram posts. The images randomly change each time the website loads:"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/megan\">meggy</a>"
+            },
+            {
+                "type": "video",
+                "content": "../videos/megan/0.mp4"
+            },
+            {
+                "type": "text",
+                "content": "I created this for my friend Fumika. It is a TV where she can flip through memories we have together by pressing the heart-shaped button."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/fumika\">fumika</a>"
+            }
+
+        ],
+        "footer": "Created for funzies."
+    }
+}

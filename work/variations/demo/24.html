@@ -1,0 +1,311 @@
+<!-- mentos -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>working together</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+        <meta name="description" content="working together by david whyte">
+        <meta name="author" content="christine kwon">
+        <link rel="stylesheet" href="nav.css">
+    </head>
+    <style>
+        .wrapper {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: fit-content;
+            background-color: rgb(208, 232, 254);
+        }
+        .container {    
+            position:absolute;
+            width: fit-content;
+            text-align: center;
+            height: 130vh;
+            background-color: aliceblue;
+            display: inline;
+        }
+        .container0 {
+            margin-left: 8px;
+        }
+        .container1 {
+            margin-left: 108px;
+        }
+        .container2 {
+            margin-left: 208px;
+        }
+        .container1 .orb {
+            background-color: pink;
+        }
+        .container2 .orb {
+            background-color: rgb(255, 247, 175);
+        }
+        .poem {
+            display: block;
+            z-index: 0;
+            position: absolute;
+            left: 0;
+            top: 0;
+            margin: 0 auto;
+            width: fit-content;
+        }
+        .orbs {
+            display: block;
+            margin: 0 auto;
+            z-index: 7;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        .orb {
+            /* cursor: url('icons/smile.png'), auto; */
+            background-color: lightsalmon;
+            display: block;
+            height: 40px;
+            width: 100px;
+            border-radius: 50%;
+            transition-duration: 1s;
+            margin-bottom: -3%;
+            
+        }
+        .orb1 {
+            background-color: transparent;
+            display: block;
+            height: 40px;
+            width: 100px;
+            border-radius: 50%;
+            margin-bottom: -3%;
+        }
+        .line {
+            font-size: 10px;
+            position: relative;
+            top: 50%;
+            transform: translate(0%, -50%);
+            /* margin-top: -10%; */
+            
+        }
+        .orb:hover + div {
+            transform: rotateY(90deg);
+        }
+
+        .footer {
+            margin-top: 125vh;
+            z-index: -1;
+        }
+
+    </style>    
+    <body>
+        <div class="wrapper">
+            <div class="container container0">
+            <div class="orbs">
+                <div class="orb" id="orb0"></div>
+                <div class="orb" id="orb1"></div>
+                <div class="orb" id="orb2"></div>
+                <div class="orb" id="orb3"></div>
+                <div class="orb" id="orb4"></div>
+                <div class="orb" id="orb5"></div>
+                <div class="orb" id="orb6"></div>
+                <div class="orb" id="orb7"></div>
+                <div class="orb" id="orb8"></div>
+                <div class="orb" id="orb9"></div>
+                <div class="orb" id="orb10"></div>
+                <div class="orb" id="orb11"></div>
+                <div class="orb" id="orb12"></div>
+                <div class="orb" id="orb13"></div>
+                <div class="orb" id="orb14"></div>
+                <div class="orb" id="orb15"></div>
+                <div class="orb" id="orb16"></div>
+                <div class="orb" id="orb17"></div>
+                <div class="orb" id="orb18"></div>
+                <div class="orb" id="orb19"></div>
+                <div class="orb" id="orb20"></div>
+                <div class="orb" id="orb21"></div>
+                <div class="orb" id="orb22"></div>
+                <div class="orb" id="orb23"></div>
+                <div class="orb" id="orb24"></div>
+                <div class="orb" id="orb25"></div>
+                <div class="orb" id="orb26"></div>
+                <div class="orb" id="orb27"></div>
+                <div class="orb" id="orb28"></div>
+                <div class="orb" id="orb29"></div>
+            </div>
+            <div class="poem" id="poem">
+                <div class="orb orb1"></div>
+                <div class="orb1" id="line28"><div class="line">intangibles about us.</div></div>
+                <div class="orb1"><div class="line" id="line27">to the great</div></div>
+                <div class="orb1"><div class="line" id="line26">by forming it well</div></div>
+                <div class="orb1"><div class="line" id="line25">shape of our own self,</div></div>
+                <div class="orb1"><div class="line" id="line24">and look for the true</div></div>
+                <div class="orb1"><div class="line" id="line23">or imagine,</div></div>
+                <div class="orb1"><div class="line" id="line22">we have yet to see</div></div>
+                <div class="orb1"><div class="line" id="line21">to those elements</div></div>
+                <div class="orb1"><div class="line" id="line20">trust</div></div>
+                <div class="orb1"><div class="line" id="line19">So may we, in this life</div></div>
+                <div class="orb1"><div class="line" id="line18">holds our weight.</div></div>
+                <div class="orb1"><div class="line" id="line17">easily</div></div>
+                <div class="orb1"><div class="line" id="line16">round a shaped wing</div></div>
+                <div class="orb1"><div class="line" id="line15">passed at speed</div></div>
+                <div class="orb1"><div class="line" id="line14">the intangible air</div></div>
+                <div class="orb1"><div class="line" id="line13">I am thinking of the way</div></div>
+                <div class="orb1"><div class="line" id="line12">the miraculous.</div></div>
+                <div class="orb1"><div class="line" id="line11">to produce</div></div>
+                <div class="orb1"><div class="line" id="line10">in common cause,</div></div>
+                <div class="orb1"><div class="line" id="line9">working together</div></div>
+                <div class="orb1"><div class="line" id="line8">and the invisible</div></div>
+                <div class="orb1"><div class="line" id="line7">The visible</div></div>
+                <div class="orb1"><div class="line" id="line6">are shaped again.</div></div>
+                <div class="orb1"><div class="line" id="line5">and by the world</div></div>
+                <div class="orb1"><div class="line" id="line4">to fit this world</div></div>
+                <div class="orb1"><div class="line" id="line3">We shape our self</div></div>
+                <div class="orb1"><div class="line" id="line1">david whyte</div></div>
+                <div class="orb1"><div class="line" id="line2">1996</div></div>
+                <div class="orb1"><div class="line" id="line0">working together</div></div>
+            </div>
+
+        </div>
+        <div class="container container1">
+            <div class="orbs">
+                <div class="orb" id="orb0"></div>
+                <div class="orb" id="orb1"></div>
+                <div class="orb" id="orb2"></div>
+                <div class="orb" id="orb3"></div>
+                <div class="orb" id="orb4"></div>
+                <div class="orb" id="orb5"></div>
+                <div class="orb" id="orb6"></div>
+                <div class="orb" id="orb7"></div>
+                <div class="orb" id="orb8"></div>
+                <div class="orb" id="orb9"></div>
+                <div class="orb" id="orb10"></div>
+                <div class="orb" id="orb11"></div>
+                <div class="orb" id="orb12"></div>
+                <div class="orb" id="orb13"></div>
+                <div class="orb" id="orb14"></div>
+                <div class="orb" id="orb15"></div>
+                <div class="orb" id="orb16"></div>
+                <div class="orb" id="orb17"></div>
+                <div class="orb" id="orb18"></div>
+                <div class="orb" id="orb19"></div>
+                <div class="orb" id="orb20"></div>
+                <div class="orb" id="orb21"></div>
+                <div class="orb" id="orb22"></div>
+                <div class="orb" id="orb23"></div>
+                <div class="orb" id="orb24"></div>
+                <div class="orb" id="orb25"></div>
+                <div class="orb" id="orb26"></div>
+                <div class="orb" id="orb27"></div>
+                <div class="orb" id="orb28"></div>
+                <div class="orb" id="orb29"></div>
+            </div>
+            <div class="poem" id="poem">
+                <div class="orb orb1"></div>
+                <div class="orb1" id="line28"><div class="line">intangibles about us.</div></div>
+                <div class="orb1"><div class="line" id="line27">to the great</div></div>
+                <div class="orb1"><div class="line" id="line26">by forming it well</div></div>
+                <div class="orb1"><div class="line" id="line25">shape of our own self,</div></div>
+                <div class="orb1"><div class="line" id="line24">and look for the true</div></div>
+                <div class="orb1"><div class="line" id="line23">or imagine,</div></div>
+                <div class="orb1"><div class="line" id="line22">we have yet to see</div></div>
+                <div class="orb1"><div class="line" id="line21">to those elements</div></div>
+                <div class="orb1"><div class="line" id="line20">trust</div></div>
+                <div class="orb1"><div class="line" id="line19">So may we, in this life</div></div>
+                <div class="orb1"><div class="line" id="line18">holds our weight.</div></div>
+                <div class="orb1"><div class="line" id="line17">easily</div></div>
+                <div class="orb1"><div class="line" id="line16">round a shaped wing</div></div>
+                <div class="orb1"><div class="line" id="line15">passed at speed</div></div>
+                <div class="orb1"><div class="line" id="line14">the intangible air</div></div>
+                <div class="orb1"><div class="line" id="line13">I am thinking of the way</div></div>
+                <div class="orb1"><div class="line" id="line12">the miraculous.</div></div>
+                <div class="orb1"><div class="line" id="line11">to produce</div></div>
+                <div class="orb1"><div class="line" id="line10">in common cause,</div></div>
+                <div class="orb1"><div class="line" id="line9">working together</div></div>
+                <div class="orb1"><div class="line" id="line8">and the invisible</div></div>
+                <div class="orb1"><div class="line" id="line7">The visible</div></div>
+                <div class="orb1"><div class="line" id="line6">are shaped again.</div></div>
+                <div class="orb1"><div class="line" id="line5">and by the world</div></div>
+                <div class="orb1"><div class="line" id="line4">to fit this world</div></div>
+                <div class="orb1"><div class="line" id="line3">We shape our self</div></div>
+                <div class="orb1"><div class="line" id="line1">david whyte</div></div>
+                <div class="orb1"><div class="line" id="line2">1996</div></div>
+                <div class="orb1"><div class="line" id="line0">working together</div></div>
+            </div>
+        </div>
+
+            <div class="container container2">
+                <div class="orbs">
+                    <div class="orb" id="orb0"></div>
+                    <div class="orb" id="orb1"></div>
+                    <div class="orb" id="orb2"></div>
+                    <div class="orb" id="orb3"></div>
+                    <div class="orb" id="orb4"></div>
+                    <div class="orb" id="orb5"></div>
+                    <div class="orb" id="orb6"></div>
+                    <div class="orb" id="orb7"></div>
+                    <div class="orb" id="orb8"></div>
+                    <div class="orb" id="orb9"></div>
+                    <div class="orb" id="orb10"></div>
+                    <div class="orb" id="orb11"></div>
+                    <div class="orb" id="orb12"></div>
+                    <div class="orb" id="orb13"></div>
+                    <div class="orb" id="orb14"></div>
+                    <div class="orb" id="orb15"></div>
+                    <div class="orb" id="orb16"></div>
+                    <div class="orb" id="orb17"></div>
+                    <div class="orb" id="orb18"></div>
+                    <div class="orb" id="orb19"></div>
+                    <div class="orb" id="orb20"></div>
+                    <div class="orb" id="orb21"></div>
+                    <div class="orb" id="orb22"></div>
+                    <div class="orb" id="orb23"></div>
+                    <div class="orb" id="orb24"></div>
+                    <div class="orb" id="orb25"></div>
+                    <div class="orb" id="orb26"></div>
+                    <div class="orb" id="orb27"></div>
+                    <div class="orb" id="orb28"></div>
+                    <div class="orb" id="orb29"></div>
+                </div>
+                <div class="poem" id="poem">
+                    <div class="orb orb1"></div>
+                    <div class="orb1" id="line28"><div class="line">intangibles about us.</div></div>
+                    <div class="orb1"><div class="line" id="line27">to the great</div></div>
+                    <div class="orb1"><div class="line" id="line26">by forming it well</div></div>
+                    <div class="orb1"><div class="line" id="line25">shape of our own self,</div></div>
+                    <div class="orb1"><div class="line" id="line24">and look for the true</div></div>
+                    <div class="orb1"><div class="line" id="line23">or imagine,</div></div>
+                    <div class="orb1"><div class="line" id="line22">we have yet to see</div></div>
+                    <div class="orb1"><div class="line" id="line21">to those elements</div></div>
+                    <div class="orb1"><div class="line" id="line20">trust</div></div>
+                    <div class="orb1"><div class="line" id="line19">So may we, in this life</div></div>
+                    <div class="orb1"><div class="line" id="line18">holds our weight.</div></div>
+                    <div class="orb1"><div class="line" id="line17">easily</div></div>
+                    <div class="orb1"><div class="line" id="line16">round a shaped wing</div></div>
+                    <div class="orb1"><div class="line" id="line15">passed at speed</div></div>
+                    <div class="orb1"><div class="line" id="line14">the intangible air</div></div>
+                    <div class="orb1"><div class="line" id="line13">I am thinking of the way</div></div>
+                    <div class="orb1"><div class="line" id="line12">the miraculous.</div></div>
+                    <div class="orb1"><div class="line" id="line11">to produce</div></div>
+                    <div class="orb1"><div class="line" id="line10">in common cause,</div></div>
+                    <div class="orb1"><div class="line" id="line9">working together</div></div>
+                    <div class="orb1"><div class="line" id="line8">and the invisible</div></div>
+                    <div class="orb1"><div class="line" id="line7">The visible</div></div>
+                    <div class="orb1"><div class="line" id="line6">are shaped again.</div></div>
+                    <div class="orb1"><div class="line" id="line5">and by the world</div></div>
+                    <div class="orb1"><div class="line" id="line4">to fit this world</div></div>
+                    <div class="orb1"><div class="line" id="line3">We shape our self</div></div>
+                    <div class="orb1"><div class="line" id="line1">david whyte</div></div>
+                    <div class="orb1"><div class="line" id="line2">1996</div></div>
+                    <div class="orb1"><div class="line" id="line0">working together</div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <nav>
+        <a class="bubble back" href="23.html">&#9680;</a>
+        <a class="bubble next" href="25.html">&#9681;</a>
+        <a class="bubble home" href="index.html">&#9711;</a>
+    </nav>
+
+    </body>
+</html>

@@ -1,0 +1,102 @@
+{
+    "ocr": {
+        "title": "end-to-end OCR model",
+        "type": "CS",
+        "link": "",
+        "description": [{
+            "type": "text",
+            "content": "Combined ABC-Net and Transformer architectures for create a model for scene text recognition of arbitrary shapes."
+        }],
+        "tools": "Python (PyTorch), Linux, Docker"
+    },
+    "geolocation": {
+        "title": "image geolocation",
+        "type": "CS",
+        "link": "",
+        "description": [{
+            "type": "text",
+            "content": "Contributed to constructing a solution for image geolocation given a drone-shot scene image in Korea (implemented text-filtering algorithms to post-process outputs of STR models / utilized Google+Naver+Kakao Map APIs for geocoding and generating test data / used OpenCV to analyze map images and localize geographical coordinates)."
+        }],
+        "tools": "Python (OpenCV), Javascript"
+    },
+    "plugin": {
+        "title": "accessible web browser plugin",
+        "type": "CS",
+        "link": "",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/CS/plugin.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "Chrome browser extension to detect and highlight web page elements that are inaccessible to users with visual and audio impairment, as outlined by the ADA Website Compliance Guidelines."
+        }],
+        "tools": "Javascript"
+    },
+    "tokitalk": {
+        "title": "tokitalk",
+        "type": "CS",
+        "link": "",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/CS/tokitalk.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "A server for an educational home robot, where English teachers can upload and customize curriculum for use with the robot."
+        }],
+        "tools": "Spring (Java), MySQL"
+    },
+    "toki-bluetooth-app": {
+        "title": "toki bluetooth app",
+        "type": "CS",
+        "link": "",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/CS/bluetooth.jpg"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "Android application that enables a robot to connect and exchange information with bluetooth headset devices."
+        }],
+        "tools": "Android Studio (Java)"
+    },
+    "tigerride": {
+        "title": "tigerride",
+        "type": "CS",
+        "link": "",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/CS/tigerride.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "Web application to streamline the process of students sharing rideshare services to and from campus in order minimize travel costs and search time."
+        }],
+        "tools": "Django (Python, Javascript), Postgres, Heroku"
+    },
+    "alpaca": {
+        "title": "alpaca game",
+        "type": "CS",
+        "link": "",
+        "media": [{
+                "type": "image",
+                "url": "../src/thumbnails/CS/alpaca0.png"
+            },
+            {
+                "type": "image",
+                "url": "../src/thumbnails/CS/alpaca1.png"
+            }
+        ],
+        "description": [{
+                "type": "text",
+                "content": "A game where the user becomes an alpaca and travels the world to learn about different gender identities and sexualities that are specific to certain cultures."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/work/alpaca\">learn more</a>"
+            }
+        ],
+        "tools": "C# (Unity), Autodesk Maya"
+    }
+}

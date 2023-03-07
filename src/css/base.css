@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Chicago;
+    src: url(../font/ChiKareGo2.ttf);
+}
+
+@font-face {
+    font-family: Geneva;
+    src: url(../font/FindersKeepers.ttf);
+}
+
+body {
+    font-family: Chicago;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+html {
+    background: rgb(255, 244, 232);
+}

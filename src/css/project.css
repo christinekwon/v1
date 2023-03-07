@@ -1,0 +1,112 @@
+button {
+    font-family: Chicago, Times, serif;
+}
+
+p {
+    font-family: Geneva, Times, serif;
+    font-size: 20px;
+}
+
+.accordion {
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    /* transition: 0.4s; */
+}
+
+.outer-accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.inner-accordion {
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #f8d6d6;
+}
+
+.outer-accordion:hover,
+.active.outer-accordion {
+    background-color: #ffc5c5;
+}
+
+.inner-accordion:hover,
+.active.inner-accordion {
+    background-color: #f8d6d6;
+}
+
+.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.outer-accordion:after {
+    color: #ffc5c5;
+}
+
+.inner-accordion:after {
+    color: #fff3f3;
+}
+
+
+/* Unicode character for "minus" sign (-) */
+
+.active:after {
+    content: "\2796";
+}
+
+.panel {
+    /* padding: 0 18px;  */
+    background-color: transparent;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s ease;
+}
+
+.inner-panel {
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+
+.inner-left-panel {
+    float: left;
+    padding: 0;
+}
+
+.inner-right-panel {
+    float: right;
+}
+
+@media screen and (min-width: 601px) {
+    .half-panel {
+        display: inline-block;
+        width: 47.5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .half-panel {
+        display: block;
+        width: 100%;
+        margin: 15px auto;
+    }
+}
+
+.image-block,
+.video-block {
+    width: 100%;
+    margin: 15px 0 15px 0;
+}
+
+.text-block {
+    margin: 15px 0 15px 0;
+}

@@ -1,0 +1,87 @@
+nav {
+    position: fixed;
+    bottom: 0px;
+    width: calc(100vw - 8px);
+    padding: 10px;
+    z-index: 10;
+}
+
+.bubble {
+    display: inline-block;
+    /* position: relative; */
+
+    border-radius: 50%;
+    
+    /* transition: 2s; */
+    /* animation: small-pulse 1s infinite alternate, 
+                fade 3s infinite alternate 1s; */
+
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    /* top: 22.5%; */
+    /* left: -25%; */
+    /* transform: translate(0%, -50%); */
+    /* color: black; */
+    /* padding: 50%; */
+    padding-top: 5px;
+    width: 30px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.bubble:hover {
+    opacity: 1;
+    animation: none;
+    /* background-color: red; */
+    /* box-shadow: 0 0 7px 10px red; */
+    animation: fadeIn 10s;
+}
+
+.back {
+    position: absolute;
+    left: 5px;
+}
+
+.home {
+    display: block;
+    padding-top: 7px;
+    height: 23px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+.next {
+    position: absolute;
+    right: 32px;
+    /* margin: -100px; */
+}
+
+
+@keyframes small-pulse {
+    0% {
+        /* h-offset v-offset blue spread color */
+        box-shadow: 0 0 7px 7px;
+    }
+    100% {
+        box-shadow: 0 0 7px 10px;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        /* opacity: 1; */
+    }
+    10% {
+        box-shadow: 0 0 7px 7px black;
+        background-color: black;
+        color: white;
+    }
+    100% {
+        box-shadow: 0 0 7px 7px black;
+        background-color: black;
+    }
+}

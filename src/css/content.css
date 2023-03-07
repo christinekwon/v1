@@ -1,0 +1,132 @@
+/* style elements for any standard html page explaining projects */
+
+html {
+    /*background: blue;*/
+    /* background: rgb(255, 244, 209); */
+    background-color: white;
+    color: rgb(49, 49, 49);
+}
+
+
+/* cursor: url('../images/cursor.png'), auto;  */
+
+body {
+    font-family: Chicago;
+    /* font-family: 'Roboto Mono', monospace; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    margin-bottom: 10%;
+    /* align-content: center; */
+    text-align: center;
+}
+
+
+/* .content-container {
+    width: 66vw;
+    display: inline-block;
+    background-color: rgb(245, 238, 230);
+    border-radius: 2vw;
+    margin: 0px auto;
+    padding: 7% 0;
+} */
+
+.title {
+    /* color: rgb(255, 173, 188); */
+    font-weight: 700;
+    font-size: 18px;
+    padding: 4%;
+    text-align: left;
+    /* margin: 5vw; */
+    /* position: absolute; */
+    /* top: 5vw;
+    left: 5vw; */
+}
+
+p {
+    width: 66.7%;
+    margin: 0% auto;
+    text-align: left;
+    font-size: 12px;
+    line-height: 175%;
+}
+
+.link {
+    color: rgb(90, 114, 253);
+}
+
+
+/* img {
+    box-shadow: 2px 2px 5px 2px grey;
+} */
+
+.square-image {
+    width: 66.7%;
+    /* width: 33vw; */
+    /* border-radius: 1vw; */
+    margin: 5% auto;
+    display: block;
+}
+
+.wide-image {
+    width: 66.7%;
+    /* width: 50vw; */
+    /* border-radius: 1vw; */
+    margin: 5% auto;
+    display: block;
+}
+
+.img-container {
+    display: block;
+    width: 66.7%;
+    margin: 5% auto;
+    align-content: center;
+    text-align: center;
+}
+
+.narrow-image {
+    display: inline-block;
+    width: 27%;
+    margin: 0% 1%;
+    /* border-radius: 1vw; */
+}
+
+.poster {
+    max-width: 500px;
+    width: 66.7%;
+    margin: 5% auto;
+    display: block;
+}
+
+iframe {
+    margin: 5% auto;
+}
+
+
+/* @media screen and (min-width: 601px) {
+    .title {
+        background: transparent;
+        border: none;
+        color: white;
+        font-weight: 900;
+        font-size: 7vw;
+        margin: 30px;
+        
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .title {
+        background: transparent;
+        border: none;
+        color: white;
+        font-weight: 900;
+        font-size: 10vw;
+        margin-top: 70px;
+        margin-bottom: 70px;
+
+    }
+  } */
+
+.name:hover {
+    color: red;
+    cursor: url('../images/cursor.png'), auto;
+}

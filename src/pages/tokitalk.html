@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>tokitalk</title>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" href="../resources/css/base.css">
+      <link rel="stylesheet" href="../resources/css/content.css">
+      <!-- <link href="http://fonts.cdnfonts.com/css/chicago-2" rel="stylesheet"> -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,700" rel="stylesheet">
+      <link rel="shortcut icon" type="image/png" href="../resources/images/icons/favicon.png"/>
+   </head>
+
+   <body class="w3-myfont">
+      <!-- <img src="../resources/images/me.png" class="home" onclick="location.href='index.html'"> -->  
+      <div class="title">tokitalk</div>
+        <div class="content-container">
+          <p>
+            In the summer following my sophomore year of college, I interned at Hancom Robotics, 
+            which is tech a company based in Korea. Hancom develops multiple types of robots, 
+            but the one I worked with most closely during my time was this one named "Toki". 
+          </p>
+          <img class="square-image" src="../resources/images/tokitalk/toki.png">
+          <p>
+            Toki is a child-sized robot that is used in households and schools to practice English with students through dialogues, quizzes, and storybook telling. 
+            When practicing an English dialogue, Toki puts on these glasses and asks a question and displays it on the left lens, and waits for the student to respond while displaying the correct answer on the right lens, like so. 
+          </p>  
+          <img class="square-image" src="../resources/images/tokitalk/dialogue.jpg">
+          <p>  
+            Something special about Toki is that not only does it come with an English curriculum that consists of dialogues student can practice, 
+            but it also allows teachers to create their own additional dialogues and quizzes and send them to the server. 
+            This is where my work comes in. Here is a sample Excel spreadsheet a teacher could create.
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/format.png" class="web">
+          <p>
+            I created a Spring Web MVC Project that provides an interface for teachers to upload the Excel files they create. 
+            This was my first time working with Spring, and at first it appeared very daunting, but I was thankfully able to catch on pretty quickly. 
+            One thing to keep in mind: I did not bother too much with styling the website at this stage because I was focused on solidifying the backend functionalities first. 
+            Anyway, this is what the main page looks like.
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/landing.png" class="web">
+          <p>
+            Once the teacher clicks "upload," they are taken to the follow page, where each cell is a text field pre-filled with the respective spreadsheet contents.
+            My team members originally just wanted the server to process and save the contents of each cell to a database table, but I suggested that we add some extra measures for security. 
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/edit.png" class="web">
+          <p>
+            First, all the required categories are indicated by an asterisk, and the user is unable to submit if any of the cells in a required category is empty.
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/requirements1.png" class="web">
+          <img class="wide-image" src="../resources/images/tokitalk/requirements2.png" class="web">
+          <p>
+            Fields that must be numbers, such as the book number and book unit, require an integer input. 
+            Additionally, for fields that requires a very specific String format, like audio file names, 
+            I placed some regular expressions to make sure the input strings are valid. 
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/requirements3.png" class="web">
+          <img class="wide-image" src="../resources/images/tokitalk/requirements4.png" class="web">
+          <p>
+            After this thorough process, the teacher can finally submit and see all the contents they have submitted so far. 
+            I utilized MySQL for the database.
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/done.png" class="web">
+          <p>
+            As was displayed in the landing page, there are three additional buttons below the the file upload section. 
+            The first, called "show dialogues," simply shows everything that is stored in the database so far. 
+            The second, called "edit dialgoues," displays everything from the database as a form and allows the user to edit the contents.
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/edit.png" class="web">
+          <p>
+            The third, called "clear dialogues," empties the database. 
+          </p>
+          <img class="wide-image" src="../resources/images/tokitalk/clear.png" class="web">
+        </div>
+   </body>
+</html>

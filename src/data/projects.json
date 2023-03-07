@@ -1,0 +1,19 @@
+{
+    "cs": {
+        "e2e": {
+            "title": "",
+            "link": "",
+            "description": [{
+                    "type": "text",
+                    "content": ""
+                },
+                {
+                    "type": "img",
+                    "content": ""
+                }
+            ],
+
+            "footer": ""
+        }
+    }
+}

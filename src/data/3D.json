@@ -1,0 +1,270 @@
+{
+    "garden": {
+        "title": "fibonacci's garden",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/spiral-world/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/garden.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "The fibonacci garden is a generative garden of spirals created using the fibonacci sequence."
+            },
+
+            {
+                "type": "text",
+                "content": "At the heart of this project is an exploration of 3D representation methods of fractals. I became captivated by fractal patterns because of their ability to create extremely complex looking results with a very simple rule. I wanted to experiment first with the Fibonacci sequence because I am particularly interested in the beautiful visual effects it creates in nature, as can be seen through flower petal / seed arrangement, shells, and more."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/work/fibonacci\">learn more</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/spiral-world\">visit here</a>"
+            }
+        ],
+        "tools": "Javascript (three.js, node.js)"
+    },
+    "spiral": {
+        "title": "spiral",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/romanesco/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/spiral.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/romanesco\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A spirally object I created while experimenting with the Fibonacci sequence."
+            }
+        ],
+        "tools": "Javascript (three.js, node.js)"
+    },
+    "garlic": {
+        "title": "garlic",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/garlic/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/garlic.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "A new language of time displays the current time by the degrees of rotation of garlic cloves."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/garlic\">watch interface animation tool</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/garlic-party\">random animation player</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/work/garlic\">learn more</a>"
+            }
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js), Adobe After Effects, Premiere Pro"
+    },
+    "fabric": {
+        "title": "fabric simulation",
+        "type": "3D",
+        "link": "../src/cloth-sim",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/fabric.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"../src/cloth-sim\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A cloth simulator that numerically integrates Newton's equations of motion to model fabric using the Three.js graphics library."
+            }
+        ],
+        "tools": "Javascript (three.js)"
+    },
+    "raytracer": {
+        "title": "raytracer",
+        "type": "3D",
+        "link": "../src/raytracer",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/3D/raytracer.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "I built a raytracer that approximtes the behavior of light to realistically render scenes."
+        }],
+        "tools": "Javascript"
+    },
+    "octopus": {
+        "title": "dress my octopus",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/dress-my-octopus/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/octopus.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/dress-my-octopus\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "A dress up game created using the Three.js library, using models I sculpted in Maya."
+            }
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    },
+    "baby_piano": {
+        "title": "baby piano",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/baby-piano/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/piano.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/baby-piano\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "Music makes babies dance!"
+            },
+            {
+                "type": "text",
+                "content": "I created a piano you can play with your computer keyboard."
+            }
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    },
+    "dyson": {
+        "title": "dyson",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/dyson/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/dyson.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/dyson\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "This project I created for fun simulates the viral Dyson Airwrap."
+            }
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    },
+    "mac-n-cheese": {
+        "title": "mac n cheese",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/mac-n-cheese/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/mac.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/mac-n-cheese\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": "In my Advanced Graphic Design class we had to create a 14 minute presentation on time.."
+            },
+            {
+                "type": "text",
+                "content": "So i made an website that animates the process of cooking a box of Annie's mac n' cheese."
+            },
+            {
+                "type": "text",
+                "content": "and had this playing through the projector while i cooked mac n cheese live in front of the class."
+            },
+            {
+                "type": "text",
+                "content": "This animation is perfectly timed (e.g. bubbles jiggle at the surface of the water at the 5 minute mark because it takes 500ml of room temperatue water to come to a boil), so you can actually use it as a tool when cooking Annie's mac n' cheese to see when to put in certain ingredients."
+            }
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    },
+    "munyang": {
+        "title": "munyang",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/munyang/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/munyang.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/munyang\">visit here</a>"
+            },
+            {
+                "type": "text",
+                "content": ""
+            }
+        ],
+        "tools": "Javascript (three.js, node.js)"
+    },
+    "fly": {
+        "title": "fly",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/fly/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/butterfly.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "Sometimes I enjoy giving gifts in the form of websites .."
+            },
+            {
+                "type": "text",
+                "content": "I created the butterfly as a college graduation gift for my dearest friends. The shape of the butterfly re-generates every time one opens the page."
+            }
+
+        ],
+        "tools": "Javascript (three.js, node.js)"
+    },
+    "megan": {
+        "title": "megan",
+        "type": "3D",
+        "link": "https://christinekwon.github.io/megan/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/3D/megan.mp4"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "I created this for Megan on her birthday. It displays a series of eggs wrapped in images from her Instagram posts. The images randomly change each time the website loads."
+        }],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    },
+    "type-type-revenge": {
+        "title": "type type revenge",
+        "type": "3D",
+        "link": "https://belle-chang.github.io/type-type-revenge/",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/3D/ttr.png"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "An interactive 3D typing game for the web, incorporating various levels and music."
+            }
+
+        ],
+        "tools": "Autodesk Maya, Javascript (three.js, node.js)"
+    }
+}

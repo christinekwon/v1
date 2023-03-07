@@ -1,0 +1,36 @@
+/* web specific styles */
+
+@media only screen and (min-width: 601px) {
+    .circle {
+        text-align: center;
+        margin: 20px;
+        margin-bottom: 0;
+        padding: 2em;
+        padding-bottom: 4em;
+        z-index: 5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        list-style: none;
+        font-size: 0.7em;
+        line-height: 1.5em;
+        transform-style: preserve-3d;
+        animation: three-dimensions-circle-y 600s linear infinite;
+    }
+    .circle li {
+        margin: 0 0.75em;
+        display: inline-block;
+        position: absolute;
+        width: 1em;
+        height: 7em;
+        pointer-events: visible;
+        color: white;
+    }
+    #sekki {
+        margin-top: -200px;
+    }
+    #ko {
+        margin-top: 200px;
+    }
+}

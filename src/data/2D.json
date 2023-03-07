@@ -1,0 +1,67 @@
+{
+    "variations": {
+        "title": "25 variations",
+        "type": "2D",
+        "link": "../../variations/",
+        "media": [{
+            "type": "video",
+            "url": "../src/thumbnails/2D/variations.mp4"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "25 visual representations of the poem 'working together' by David Whyte."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/work/variations/\">learn more</a>"
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/spiral-world\">visit here</a>"
+            }
+        ],
+        "tools": "Javascript, HTML, CSS"
+    },
+    "microseasons": {
+        "title": "72 microseasons",
+        "type": "2D",
+        "link": "../../src/microseasons/",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/2D/microseasons.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "A representation of the 72 Japanese microseasons."
+        }],
+        "tools": "Javascript, HTML, CSS"
+    },
+    "rhythm-cooker": {
+        "title": "rhythm cooker",
+        "type": "2D",
+        "link": "https://christinekwon.github.io/rhythm-cooker/",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/2D/rhythm.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "A random rhythm + chord generator with customizable keys, tempos, instruments, lengths, octave ranges, and time signatures."
+        }],
+        "tools": "Javascript (node.js, tone.js, timbre.js), HTML, CSS"
+    },
+    "wine-n-beats": {
+        "title": "wine n beats sequencer",
+        "type": "2D",
+        "link": "https://christinekwon.github.io/sequencer/",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/2D/sequencer.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "A basic sequencer shaped like a charceuterie board."
+        }],
+        "tools": "React (Javascript), tone.js, HTML, CSS"
+    }
+}

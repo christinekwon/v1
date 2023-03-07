@@ -1,0 +1,51 @@
+{
+    "tinder": {
+        "title": "tinder",
+        "type": "GD",
+        "link": "https://www.youtube.com/watch?v=Bq1pT2-5Y9g&ab_channel=TinderKorea",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/GD/tinder.jpg"
+        }],
+        "description": [{
+                "type": "text",
+                "content": "I worked for the Tinder Korea marketing team in spring of 2021, where i led a team in creating a video promoting the app."
+            },
+            {
+                "type": "text",
+                "content": "We crafted a video in partnership with <a href=\"https://www.instagram.com/hyojin__choi__/?hl=en\">Hyojin Choi</a>, a professional dancer in Kaorea known for her <a href=\"https://www.youtube.com/watch?v=ZMq-aazS_kg&ab_channel=1MILLIONDanceStudio\">powerful choreography</a> as an iconic dancer / choreographer at 1 Million Dance Studio, the largest dance studio in Korea, and gained even more traction in the past year by <a href=\"https://www.youtube.com/watch?v=YyPi7uBIWa8&ab_channel=MnetTV\">leading the dance group WANT in \"Street Woman Fighter,\"</a> a dance competition show that aired on the Korean entertainment channel M-net."
+            },
+            {
+                "type": "text",
+                "content": "The goal of the project was to create material that demonstrates how one can create a Tinder profile that effectively demonstrates one's lovely qualities, such as talents, interests, and personality. My team chose to work with Hyojin for this project because we were captivated by her creative dance artistry, and thought her character would be interesting to translate into a Tinder profile."
+            },
+            {
+                "type": "text",
+                "content": "We first had a shoot with Hyojin as we captured her dancing freestyle in Sewoon Sangga, a digital shopping complex in the heart of Seoul with a retro vibe, through photo and video. We wished to capture her doing what she loves the most: dancing."
+            },
+            {
+                "type": "text",
+                "content": "We then had her utilize these images, along with some of her own, to craft a Tinder profile that best showcases her personality and interests. We documented the process as she uploaded images of her doing the things she loves, selected her interests, and filled out a bio about herself."
+            },
+            {
+                "type": "text",
+                "content": "<a href=\"https://christinekwon.github.io/work/tinder\">learn more</a>"
+            }
+        ],
+        "tools": "adobe photoshop, premiere pro, illustrator"
+    },
+    "hackprinceton": {
+        "title": "hackprinceton",
+        "type": "GD",
+        "link": "",
+        "media": [{
+            "type": "image",
+            "url": "../src/thumbnails/GD/hackprinceton.png"
+        }],
+        "description": [{
+            "type": "text",
+            "content": "graphic design for hackprinceton season."
+        }],
+        "tools": "adobe illustrator"
+    }
+}
