@@ -38,7 +38,7 @@ function calcLeftTooltip(icon_container, tooltip) {
 function calcRightTooltip(icon_container, tooltip) {
     let left = icon_container.style.left;
     left = parseInt(left.substring(0, left.length - 1));
-    left += 280;
+    left += 180;
     left += "px";
     tooltip.style.left = left;
     tooltip.style.top = icon_container.style.top;

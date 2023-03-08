@@ -201,7 +201,7 @@ img {
 .title {
     margin: auto;
     padding-top: 5px;
-    font-size: 25px;
+    font-size: 16px;
     /* color: rgba(255, 225, 236, 0.7); */
 }
 
@@ -209,11 +209,11 @@ img {
     background: rgba(255, 226, 211, 0.3);
     text-align: center;
     visibility: hidden;
-    /* width: 100px; */
-    width: 200px;
-    height: auto;
+    width: 130px;
+    /* width: 200px; */
+    /* height: auto; */
     position: absolute;
-    padding: 50px 0px;
+    padding: 20px 10px;
     border-radius: 5px;
     -webkit-transition: .3s;
     transition: background .3s;
@@ -229,7 +229,7 @@ img {
     border: 2px dashed pink;
     border-radius: 5px;
     padding: 15px;
-    font-size: 25px;
+    font-size: 14px;
     /* Position the tooltip */
     position: absolute;
     z-index: 2;
@@ -273,7 +273,7 @@ img {
         line-height: 150%;
     }
     .folder {
-        width: 80%;
+        width: 70%;
         height: auto;
     }
     .art-container {

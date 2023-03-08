@@ -29,7 +29,7 @@ function create_new_folder(index, data) {
 
     var icon_container = document.createElement('div');
     icon_container.classList.add('icon-container');
-    icon_container.id = "icon" + index;
+    icon_container.id = "icon-" + index;
     icon_container.onclick = function(e) {
         // location.href = data['link'] + '?key=' + index;
         location.href = './src/pages/project.html?jsonObj=' + encodeURIComponent(JSON.stringify(data));
@@ -37,7 +37,7 @@ function create_new_folder(index, data) {
 
     var img = document.createElement('img');
     img.classList.add('folder');
-    img.id = 'folder' + index;
+    img.id = 'folder-' + index;
     img.src = './src/images/home/folder-closed.png';
 
     // replace spaces in titles w/ line breaks to prevent horizontal crowding

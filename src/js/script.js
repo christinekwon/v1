@@ -46,19 +46,19 @@ const isMobile = isMobileDevice();
 // const backgroundColor = "rgba(128, 255, 249, 0.78)"
 const padding = "10px 0px";
 const borderRadius = "5px";
-let bottomPadding = 300;
-let rightPadding = 300;
+let bottomPadding = 200;
+let rightPadding = 200;
 
 if (isMobile) {
-    bottomPadding = 100;
+    bottomPadding = 150;
     rightPadding = 200;
 }
 // 10 is fast enough, 40 is slow enough
-const speed = 20;
+const speed = 40;
 // const tooltipLeft = "175%";
 // const tooltipRight = "-155%";
-const tooltipLeft = "175%";
-const tooltipRight = "-155%";
+const tooltipLeft = "225%";
+const tooltipRight = "-100%";
 
 
 function randomX() {
